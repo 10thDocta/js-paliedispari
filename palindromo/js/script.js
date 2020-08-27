@@ -1,4 +1,4 @@
-// prendo l'input dall'utente, trasformando tutto in minuscolo
+// prendo l'input dall'utente, trasformando tutto in maiuscolo
 const input = prompt().toUpperCase();
 
 // funzione per verificare se la stringa è palindroma

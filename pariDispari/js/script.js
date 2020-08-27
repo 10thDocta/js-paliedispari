@@ -4,11 +4,14 @@ var input = prompt('scegliere pari o dispari').toLowerCase();
 // chiedo tramite prompt di scegliere un numero tra 1 e 5
 var inputNumber = parseInt(prompt('inserire un numero da 1 a 5'), 10);
 
+
 // creo un numero randomico tra 1 e 5
-var randomNumber = Math.floor(Math.random() * 5) + 1;
+function randomNumber() {
+    return Math.floor(Math.random() * 5) + 1;
+}
 
 // sommo il valore preso tramite prompt e quello randomico
-var sum = inputNumber + randomNumber;
+var sum = inputNumber + randomNumber();
 
 
 // funzione per definire se la somma dei 2 numeri è pari o dispari
